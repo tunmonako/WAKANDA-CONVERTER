@@ -1,9 +1,19 @@
-## Welcome to GitHub Pages
+## Welcome to My Pages
 
-You can use the [editor on GitHub](https://github.com/tunmonako/wacanda.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Name : <p id="showText"></p>
+<input type="text" id="myText" value="">
 
+<p>Click the button to change the value of the text field.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+	var no = document.getElementById("myText").value;
+    document.getElementById("showText").innerHTML = no;
+}
+  
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
