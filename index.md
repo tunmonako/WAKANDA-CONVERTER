@@ -8,7 +8,7 @@ Name : <p id="showText"></p>
 
 <button onclick="myFunction()">Try it</button>
 
-<script>
+
 function myFunction() {
 	var no = document.getElementById("myText").value;
     document.getElementById("showText").innerHTML = no;
