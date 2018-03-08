@@ -9,7 +9,7 @@ Name : <p id="showText"></p>
 <button onclick="myFunction()">Try it</button>
 
 
-function myFunction() {
+var test = function myFunction() {
 	var no = document.getElementById("myText").value;
     document.getElementById("showText").innerHTML = no;
 }
